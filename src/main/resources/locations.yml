@@ -1,0 +1,17 @@
+locations:
+  locations:
+    - name: Jastarnia
+      latitude: 54.6963
+      longitude: 18.6786
+    - name: Bridgetown
+      latitude: 13.0972
+      longitude: -59.6145
+    - name: Fortaleza
+      latitude: -3.7172
+      longitude: -38.5434
+    - name: Pissouri
+      latitude: 34.6700
+      longitude: 32.6981
+    - name: Le Morne
+      latitude: -20.4488
+      longitude: 57.3189

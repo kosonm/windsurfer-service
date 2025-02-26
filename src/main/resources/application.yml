@@ -1,7 +1,7 @@
 weatherbit:
   api:
     url: https://api.weatherbit.io/v2.0/forecast/daily
-    key: abb4604e78b84bb9b6b71cc2a5dbc03e
+    key: YOUR_API_KEY_HERE
 
 spring:
   config:

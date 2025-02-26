@@ -1,4 +1,4 @@
-package pl.sonalakewindsurfer.integration;
+package pl.windsurfer.integration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,14 +6,14 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import pl.sonalakewindsurfer.config.LocationsConfig;
-import pl.sonalakewindsurfer.controller.WeatherController;
-import pl.sonalakewindsurfer.exceptions.WeatherbitClientException;
-import pl.sonalakewindsurfer.model.Location;
-import pl.sonalakewindsurfer.model.WeatherData;
-import pl.sonalakewindsurfer.model.WeatherResponse;
-import pl.sonalakewindsurfer.service.WeatherService;
-import pl.sonalakewindsurfer.service.WindsurfingService;
+import pl.windsurfer.config.LocationsConfig;
+import pl.windsurfer.controller.WeatherController;
+import pl.windsurfer.exceptions.WeatherbitClientException;
+import pl.windsurfer.model.Location;
+import pl.windsurfer.model.WeatherData;
+import pl.windsurfer.model.WeatherResponse;
+import pl.windsurfer.service.WeatherService;
+import pl.windsurfer.service.WindsurfingService;
 
 import java.time.LocalDate;
 import java.util.Collections;

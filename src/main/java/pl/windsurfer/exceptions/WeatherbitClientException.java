@@ -1,4 +1,4 @@
-package pl.sonalakewindsurfer.exceptions;
+package pl.windsurfer.exceptions;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package pl.sonalakewindsurfer.config;
+package pl.windsurfer.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

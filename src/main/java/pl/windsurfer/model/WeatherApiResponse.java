@@ -1,4 +1,4 @@
-package pl.sonalakewindsurfer.model;
+package pl.windsurfer.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;

@@ -1,6 +1,6 @@
-package pl.sonalakewindsurfer.util;
+package pl.windsurfer.util;
 
-import pl.sonalakewindsurfer.model.WeatherData;
+import pl.windsurfer.model.WeatherData;
 
 public class WeatherUtil {
 

@@ -1,4 +1,4 @@
-package pl.sonalakewindsurfer.service;
+package pl.windsurfer.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -8,10 +8,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
-import pl.sonalakewindsurfer.exceptions.WeatherbitClientException;
-import pl.sonalakewindsurfer.model.Location;
-import pl.sonalakewindsurfer.model.WeatherApiResponse;
-import pl.sonalakewindsurfer.model.WeatherData;
+import pl.windsurfer.exceptions.WeatherbitClientException;
+import pl.windsurfer.model.Location;
+import pl.windsurfer.model.WeatherApiResponse;
+import pl.windsurfer.model.WeatherData;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

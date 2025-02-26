@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl</groupId>
-    <artifactId>sonalake-windsurfer</artifactId>
+    <artifactId>windsurfer-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sonalake-windsurfer</name>
-    <description>sonalake-windsurfer</description>
+    <name>windsurfer-service</name>
+    <description>windsurfer-service</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -71,7 +71,7 @@
                         <exclude>**/model/**</exclude>
                         <exclude>**/exceptions/**</exclude>
                         <exclude>**/config/**</exclude>
-                        <exclude>**/SonalakeWindsurferApplication.class</exclude>
+                        <exclude>**/WindsurferApplication.class</exclude>
                     </excludes>
                 </configuration>
                 <executions>

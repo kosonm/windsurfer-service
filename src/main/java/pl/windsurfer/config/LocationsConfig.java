@@ -1,10 +1,10 @@
-package pl.sonalakewindsurfer.config;
+package pl.windsurfer.config;
 
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import pl.sonalakewindsurfer.model.Location;
+import pl.windsurfer.model.Location;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package pl.sonalakewindsurfer.service;
+package pl.windsurfer.service;
 
 
 import org.junit.jupiter.api.BeforeEach;
@@ -7,11 +7,11 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import pl.sonalakewindsurfer.config.LocationsConfig;
-import pl.sonalakewindsurfer.exceptions.WeatherbitClientException;
-import pl.sonalakewindsurfer.model.Location;
-import pl.sonalakewindsurfer.model.WeatherData;
-import pl.sonalakewindsurfer.model.WeatherResponse;
+import pl.windsurfer.config.LocationsConfig;
+import pl.windsurfer.exceptions.WeatherbitClientException;
+import pl.windsurfer.model.Location;
+import pl.windsurfer.model.WeatherData;
+import pl.windsurfer.model.WeatherResponse;
 
 import java.time.LocalDate;
 import java.util.Arrays;
